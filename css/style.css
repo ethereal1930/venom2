@@ -1,5 +1,4 @@
 body {
-  background-color: #14131a;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -49,4 +48,48 @@ body {
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-icon,
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.botton-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+.button-primary {
+  color: #8d0019;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.button-link {
+  color: #fff;
+}
+.button-group {
+  margin-top: 70px;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.blood {
+  background: url(../img/blood.png) no-repeat top right,
+    #14131a url(../img/7a4eb4be26e06494c0cd6c4608088a381.jpeg) no-repeat center
+      center / 100%;
+}
+.marvel {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
 }
