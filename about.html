@@ -17,12 +17,18 @@
             <img src="img/logo.png" alt="logo: venom" class="logo-img" width="46" height="71">
         </a>
         <nav class="nav">
+            <button class="menu-button">
+                <img src="img/burger.svg" alt="icon: burger menu" class="menu-button-icon">
+            </button>
+            <button class="menu-close">
+                <img src="img/ex.svg" alt="icon: exit" class="menu-close-icon">
+            </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
                     <a href="about.html" class="nav-menu-link">synopsis</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="trailer.html" class="nav-menu-link">trailer</a>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=-ezfi6FQ8Ds&t=1s&ab_channel=SonyPicturesEntertainment" class="nav-menu-link">trailer</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="actors.html" class="nav-menu-link">actors</a>
@@ -48,8 +54,10 @@
     </ul>
     <div class="trailer">
         <button class="play">
+            <a data-fancybox href="https://www.youtube.com/watch?v=-ezfi6FQ8Ds&t=1s&ab_channel=SonyPicturesEntertainment">
             <img src="img/play.svg" alt="icon: play" class="play-icon">
-        </button>
+        </a>
+    </button>
     </div>
     </div>
 <div class="col">
@@ -84,5 +92,10 @@
    </div>
 </div>
 <img class="marvel" src="img/logo-marvel.png" alt="logo: marvel">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
