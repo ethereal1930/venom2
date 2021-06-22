@@ -4,5 +4,3 @@
 - HTML
 - CSS
 - Normalize
-- адаптив
-## ссылка: https://ethereal1930.github.io/venom2/
